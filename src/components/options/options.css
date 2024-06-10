@@ -1,0 +1,13 @@
+.opcion {
+    background-color: white;
+    width: 392px;
+    height: 266px;
+    border-radius: 16px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    border: none; /* O border: 0; */
+    margin: 20px;
+    text-align: center;
+    font-size: 28px;
+    color: rgba(21, 44, 112, 1);
+  }
+  
