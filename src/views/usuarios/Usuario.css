@@ -1,0 +1,10 @@
+/* src/views/usuarios/Usuarios.css */
+.usuarios-page {
+    display: flex;
+  }
+  
+  .usuarios-content {
+    flex: 1;
+    padding: 2rem;
+  }
+  

@@ -2,6 +2,7 @@
 .login-header {
     text-align: center;
     margin-bottom: 1rem;
+    color: #014878;
   }
   
   .logo {
@@ -27,14 +28,14 @@
   button {
     padding: 0.5rem;
     font-size: 1rem;
-    background-color: #5a5a5a;
-    color: white;
+    background-color: #014878;
+    color: #FDD200;
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
   }
   
-  button:hover {
-    background-color: #4a4a4a;
-  }
-  
+    button:hover {
+        background-color: #014878;
+    }
+    
