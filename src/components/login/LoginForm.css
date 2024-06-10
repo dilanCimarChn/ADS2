@@ -1,0 +1,40 @@
+/* src/components/login/LoginForm.css */
+.login-header {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .logo {
+    width: 150px;
+    height: auto;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  input {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #5a5a5a;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4a4a4a;
+  }
+  
