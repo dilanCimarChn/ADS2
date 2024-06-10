@@ -1,18 +1,19 @@
-import { useState } from 'react'
-import './App.css'
-import Login from './views/Login/Login'
-import Usuarios from './views/usuarios/Usuarios'
+import { useState } from "react";
+import "./App.css";
+import { Tuser } from "./views/tipos-usuario/tipos-usuario";
+
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
-    
+    <>
       <div>
-       <Usuarios></Usuarios>
+        <Tuser/>
       </div>
-    
-  )
+    </>
+  );
 }
 
-export default App
+export default App;
+
