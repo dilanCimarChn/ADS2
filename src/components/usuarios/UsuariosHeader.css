@@ -1,0 +1,12 @@
+/* src/components/usuarios/UsuariosHeader.css */
+.usuarios-header {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .usuarios-header h1 {
+    font-family: 'Adlam Display', sans-serif;
+    font-size: 2rem;
+    color: #014878;
+  }
+  

@@ -1,0 +1,16 @@
+/* src/components/usuarios/UsuariosButton.css */
+.usuarios-button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #014878;
+    color: #FDD200;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+  
+  .usuarios-button:hover {
+    background-color: #013366;
+    color: #FFFFFF;
+  }
+  

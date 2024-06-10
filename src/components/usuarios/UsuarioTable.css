@@ -1,0 +1,51 @@
+/* src/components/usuarios/UsuariosTable.css */
+.usuarios-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .usuarios-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+  
+  .usuarios-table th, .usuarios-table td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .usuarios-table th {
+    background-color: #D8D8D8;
+  }
+  
+  .usuarios-table tr:nth-child(even) {
+    background-color: #F2F2F2;
+  }
+  
+  .usuarios-table .activo {
+    color: #004800;
+    background-color: #A0F9A0;
+    border-radius: 0.25rem;
+    text-align: center;
+    padding: 0.25rem 0;
+  }
+  
+  .usuarios-table .inactivo {
+    color: #800000;
+    background-color: #F9A0A0;
+    border-radius: 0.25rem;
+    text-align: center;
+    padding: 0.25rem 0;
+  }
+  
+  .usuarios-table .modificar {
+    background-color: #FDD200;
+    color: #014878;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+  }
+  
