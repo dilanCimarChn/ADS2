@@ -1,0 +1,51 @@
+.container {
+    width: 1664px;
+    height: 982px;
+    background-color: FFFFFF;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  
+  .rectangle {
+    width: 256px;
+    height: 982px;
+    background-color: FFFFFFF;
+    box-shadow: 5px 0 9px rgba(0, 0, 0, 0.5);
+  }
+  
+  .LogoIcono2 {
+    position: relative;
+    top: 48px;
+    left: 44px;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .tittle {
+    position: absolute;
+    top: 93px;
+    left: 430px;
+    font-size: 32px;
+  }
+  
+  .Opciones {
+    position: absolute;
+    display: flex;
+    top: 233px;
+    left: 420px;
+    width: 824px;
+    height: 700px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  
+  .LogoIcono2 img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: contain;
+    }
+    
