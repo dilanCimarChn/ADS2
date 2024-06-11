@@ -2,9 +2,8 @@ import { useState } from "react";
 import { Tuser } from "./views/tipos-usuario/tipos-usuario";
 import Usuarios from "./views/usuarios/Usuarios";
 import Login from "./views/Login/Login";
-import AsignacionLugar from "./components/asigar-lugar/AsignacionLugar";
-import UsuariosTable from "./components/usuarios/UsuariosTable";
-import Tablausuario from "./components/tabla-usuario/tablausuario";
+import AsignaciondeEst from "./views/AsignaciondeEst/AsignaciondeEst";
+import Estacionamiento from "./views/Estacionamiento/Estacionamiento";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +11,8 @@ function App() {
   return (
     <>
       <div>
-        <Usuarios/>
+        <Tuser></Tuser>
+        
         
 
       </div>
