@@ -1,0 +1,33 @@
+/* src/components/usuarios/AsignacionLugar.css */
+.asignacion-lugar {
+    width: 95%; /* Mismo ancho que la tabla anterior */
+    margin: auto; /* Centramos el contenido */
+  }
+  
+  .asignacion-lugar h2 {
+    
+    margin-bottom: 1rem; /* Añadimos espacio entre el título y la tabla */
+    color: blue; /* Cambiamos el color del texto a azul */
+  }
+  
+  .asignacion-lugar table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .asignacion-lugar th, .asignacion-lugar td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: black;
+  }
+  
+  .asignacion-lugar th {
+    background-color: #F0F0F0;
+    font-weight: bold;
+  }
+  
+  .asignacion-lugar tr:nth-child(even) {
+    background-color: #F5F5F5;
+  }
+  
