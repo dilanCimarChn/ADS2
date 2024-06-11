@@ -1,0 +1,27 @@
+/* src/components/estacionamiento/EspacioEstacionamiento.css */
+
+.espacio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s, opacity 0.3s;
+  border-radius: 8px; /* Optional: for rounded visual */
+  opacity: 0.7; /* General transparency */
+}
+
+.espacio:hover {
+  opacity: 1; /* Full opacity on hover */
+}
+
+.disponible {
+  background-color: rgba(0, 128, 0, 0.4); /* Semi-transparent green */
+}
+
+.ocupado {
+  background-color: rgba(255, 0, 0, 0.4); /* Semi-transparent red */
+}
