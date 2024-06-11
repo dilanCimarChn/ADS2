@@ -1,0 +1,45 @@
+/* src/components/usuarios/UsuariosTable.css */
+.usuarios-table {
+    width: 95%; /* Aumentamos el ancho de la tabla */
+    margin: auto; /* Centramos la tabla */
+  }
+  
+  .usuarios-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .usuarios-table th, .usuarios-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    color: black;
+  }
+  
+  .usuarios-table th {
+    background-color: #F0F0F0;
+    font-weight: bold;
+  }
+  
+  .usuarios-table tr:nth-child(even) {
+    background-color: #F5F5F5;
+  }
+  
+  .usuarios-table .aceptar {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+  }
+  
+  .usuarios-table .rechazar {
+    background-color: #FF5733;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 0.25rem;
+  }
+  
