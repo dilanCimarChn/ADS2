@@ -1,0 +1,29 @@
+/* src/components/Parking/ParkingContent.css */
+.parking-content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .description {
+    background-color: #ffc107;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .parking-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .detail {
+    margin-bottom: 10px;
+  }
+  
+  .vehicle-image {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
