@@ -1,0 +1,47 @@
+/* src/views/estacionamiento/Estacionamiento.css */
+.estacionamiento-page {
+    display: flex;
+    height: 100vh; /* Ensure the view takes up the full screen height */
+  }
+  
+  .estacionamiento-content {
+    flex-grow: 1;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content */
+  }
+  
+  .estacionamiento-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);  /* Adjusted for 7 spaces per row */
+    gap: 10px;
+    width: 80%; /* Adjust size as necessary */
+    height: 400px; /* Adjust size based on image */
+    background-image: url('./ESTACIONAMIENTO.png'); /* Path to image */
+    background-size: cover;
+    background-position: center;
+    position: relative; /* Needed to position absolute spaces */
+  }
+  
+  .estacionamiento-grid .espacio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 8px;  /* Optional: to match rounded parking space visuals */
+  }
+  
+  .espacio[data-numero="1"] { grid-area: 1 / 1 / 2 / 2; }
+  .espacio[data-numero="2"] { grid-area: 1 / 2 / 2 / 3; }
+  /* Repeat for other spaces */
+  
+
+  .titulo-estacionamiento{
+    color: #0A068C;
+    font-size: 35px;
+    margin-bottom: 70px;
+  }

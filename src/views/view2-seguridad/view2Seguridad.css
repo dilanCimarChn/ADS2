@@ -1,0 +1,11 @@
+/* src/views/usuarios/Usuarios.css */
+.usuarios-page {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .usuarios-content {
+    flex: 1;
+    padding: 2rem;
+  }
+  
