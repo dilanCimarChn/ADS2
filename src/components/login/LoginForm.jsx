@@ -8,6 +8,11 @@ const credencialesAdmin = {
   contraseña: 'admin123'
 };
 
+const credencialesCarlos = {
+  usuario: 'carlos',
+  contraseña: 'carlos123'
+};
+
 const LoginForm = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -16,8 +21,15 @@ const LoginForm = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (email === credencialesAdmin.usuario && password === credencialesAdmin.contraseña) {
-      navigate('/estacionamiento'); // Redirige a la vista de estacionamiento
+    if (
+      (email === credencialesAdmin.usuario && password === credencialesAdmin.contraseña) ||
+      (email === credencialesCarlos.usuario && password === credencialesCarlos.contraseña)
+    ) {
+      if (email === 'carlos') {
+        navigate('/inicio-usuario'); // Redirige a la vista de MainUsu para el usuario Carlos
+      } else {
+        navigate('/estacionamiento'); // Redirige a la vista de Estacionamiento para el admin
+      }
     } else {
       setError('Credencial incorrecta'); // Muestra mensaje de error
     }
