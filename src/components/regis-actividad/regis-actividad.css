@@ -1,0 +1,50 @@
+/* Estilos para el componente regis-actividad */
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3182ce; /* Azul */
+  }
+.regis-actividad {
+  font-family: Arial, sans-serif;
+  border: 4px solid #ddd; /* Bordes generales */
+  border-top: 40px solid #ddd; /* Borde superior más grueso */
+  border-bottom: 40px solid #ddd; /* Borde inferior más grueso */
+  border-left: 10px solid #ddd; /* Borde izquierdo más delgado */
+  border-right: 10px solid #ddd; /* Borde derecho más delgado */
+  border-radius: 10px;
+  padding: 20px;
+  overflow-x: auto; /* Agrega scroll horizontal */
+  overflow-y: auto; /* Agrega scroll vertical */
+  max-height: 500px; /* Altura máxima del contenedor */
+}
+
+/* Estilos para la tabla */
+.regis-actividad table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.regis-actividad th,
+.regis-actividad td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  color: #000;
+}
+
+.regis-actividad th {
+  background-color: #f2f2f2;
+}
+
+/* Estilos para la columna de usuario */
+.regis-actividad td:first-child {
+  display: flex;
+  align-items: center;
+}
+
+.regis-actividad img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
