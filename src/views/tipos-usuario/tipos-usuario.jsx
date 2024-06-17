@@ -13,9 +13,9 @@ export const Tuser = () => {
   return (
     <div className="container">
       <div className="rectangle">
-        <div className="LogoIcono2">
-          <img src="/public/img-view1/emi_logo.png" alt="emi_logo" />
-        </div>
+      <div className="logo-container">
+        <img src="logoemi.png" alt="Logo" className="logo" />
+      </div>
       </div>
       <h2 className="tittle">SELECCIONE UN TIPO DE USUARIO</h2>
       <div className="Opciones">
