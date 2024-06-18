@@ -15,7 +15,7 @@ const NavbarSeguridad = () => {
       </h2>
       <button className="sidebar-button" onClick={() => navigate('/seguridadinicio')}>Inicio</button>
       <button className="sidebar-button" onClick={() => navigate('/usuarios')}>Usuarios</button>
-      <button className="sidebar-button" onClick={() => navigate('/registros')}>Registros de Actividad</button>
+      <button className="sidebar-button" onClick={() => navigate('/registros')}>Agregar Invitado</button>
     </div>
   );
 };
