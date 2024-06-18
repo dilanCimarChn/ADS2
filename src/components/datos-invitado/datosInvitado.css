@@ -1,0 +1,25 @@
+.contenedor-dato {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  justify-content: space-between;
+}
+
+.tipo-dato {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.dato-entrada {
+  height: 10px;
+  min-width: 200px;
+  border: 1px solid;
+  background-color: #ebebeb;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #9d9fa0;
+}
