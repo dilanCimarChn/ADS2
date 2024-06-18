@@ -1,0 +1,21 @@
+/* src/components/ReportarProblema/ReportarHeader.css */
+.reportar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .reportar-header h1 {
+    margin: 0;
+  }
+  
+  .logout-button {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
