@@ -1,0 +1,33 @@
+.invitado-page {
+  display: flex;
+  height: 100vh;
+}
+
+.titulo-page {
+  font-family: "Adlam Display", sans-serif;
+  font-size: 2rem;
+  color: #014878;
+  position: absolute;
+  top: 20px;
+  left: 300px;
+}
+
+.contenedor-datos {
+  position: absolute;
+  width: 590px;
+  height: auto;
+  top: 120px;
+  left: 290px;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+.cont-boton {
+  position: absolute;
+  top: 420px;
+  left: 300px;
+}

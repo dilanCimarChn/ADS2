@@ -1,0 +1,67 @@
+.informe-report-wrapper {
+    padding: 20px;
+  }
+  
+  .informe-title-container {
+    margin-bottom: 10px;
+  }
+  
+  .informe-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .informe-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-height: calc(2 * (240px + 20px)); /* Calcula la altura máxima para dos filas */
+    overflow-y: auto; /* Habilita el scroll vertical */
+    max-height: 360px;
+    overflow-y: auto; /* Habilita el scroll vertical si es necesario */
+  }
+  
+  .informe-list::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra de desplazamiento */
+  }
+  
+  .informe-list::-webkit-scrollbar-track {
+    background: transparent; /* Color de fondo de la barra de desplazamiento */
+  }
+  
+  .informe-list::-webkit-scrollbar-thumb {
+    background-color: #888; /* Color del "thumb" (la parte deslizable de la barra) */
+    border-radius: 5px; /* Bordes redondeados del "thumb" */
+  }
+  
+  .informe-item {
+    flex: 0 0 calc(33.33% - 10px); /* Ocupa el 33.33% del ancho menos el espacio entre elementos */
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .informe-item h3 {
+    font-size: 1.2rem;
+    color: #007bff;
+    margin-bottom: 5px;
+  }
+  
+  .informe-item p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .informe-link {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .informe-link:hover {
+    text-decoration: underline;
+  }
+  
