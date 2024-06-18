@@ -8,6 +8,7 @@ import AsignaciondeEst from './views/AsignaciondeEst/AsignaciondeEst';
 import Usuarios from './views/usuarios/Usuarios';
 import VistasRegisActividad from './views/regis-actividad/vistas-regis-actividad';
 import MainUsu from './views/MainUsu/MainUsu';
+import InfRepot from './views/inf-report/inf-repot'; // Asegúrate de importar InfRepot correctamente
 
 function App() {
   return (
@@ -18,10 +19,12 @@ function App() {
         <Route path="/estacionamiento" element={<Estacionamiento />} />
         <Route path="/solicitudes" element={<AsignaciondeEst />} />
         <Route path="/usuarios" element={<Usuarios />} />
-        <Route path="/inicio" element={<Estacionamiento />} /> {/* Redirige a Estacionamiento */}
-        <Route path="/inicio-usuario" element={<MainUsu />} /> {/* Nueva ruta para MainUsu */}
+        <Route path="/inicio" element={<Estacionamiento />} />
+        <Route path="/reportes" element={<InfRepot />} /> 
+        <Route path="/inicio-usuario" element={<MainUsu />} />
         <Route path="/registros" element={<VistasRegisActividad />} />
-        {/* Añade aquí cualquier otra ruta necesaria */}
+        
+        {/* Añade cualquier otra ruta necesaria aquí */}
       </Routes>
     </Router>
   );
