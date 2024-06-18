@@ -1,0 +1,50 @@
+/* src/components/ReportarProblema/ReportarContent.css */
+.reportar-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .reportar-form {
+    width: 100%;
+    max-width: 600px;
+    background-color: rgba(104, 96, 96, 0.1); /* Fondo oscuro con opacidad */
+    padding: 20px;
+    border-radius: 10px; /* Esquinas redondeadas */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 90%;
+    padding: 10px;
+    border-radius: 5px; /* Esquinas redondeadas */
+    border: 1px solid #ccc;
+    background-color: #fff;
+  }
+  
+  .form-group input[type="checkbox"] {
+    width: auto;
+    margin-left: 10px;
+  }
+  
+  .reportar-button {
+    background-color: #ffc107;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px; /* Esquinas redondeadas */
+  }
+  
