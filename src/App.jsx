@@ -8,12 +8,13 @@ import AsignaciondeEst from './views/AsignaciondeEst/AsignaciondeEst';
 import Usuarios from './views/usuarios/Usuarios';
 import VistasRegisActividad from './views/regis-actividad/vistas-regis-actividad';
 import MainUsu from './views/MainUsu/MainUsu';
+import Perfil from './views/Perfil/Perfil';
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Tuser />} />
+        <Route path="/" element={<Perfil />} />
         <Route path="/login" element={<Login />} />
         <Route path="/estacionamiento" element={<Estacionamiento />} />
         <Route path="/solicitudes" element={<AsignaciondeEst />} />
