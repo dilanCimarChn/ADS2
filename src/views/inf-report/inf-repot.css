@@ -1,0 +1,23 @@
+/* Estilos para el contenedor principal */
+.inf-repot-container {
+    display: flex; /* Utilizamos flexbox para alinear los elementos en fila */
+    gap: 20px; /* Espacio entre el sidebar y el informe */
+    padding: 20px; /* Padding interior */
+  }
+  
+  /* Estilos para el sidebar */
+  .sidebar {
+    width: 250px; /* Ancho fijo del sidebar */
+    height: 100vh;
+    background-color: #f0f0f0; /* Color de fondo opcional */
+    padding: 10px; /* Padding interno del sidebar opcional */
+    flex-shrink: 0; /* Evita que el sidebar se reduzca de tamaño */
+  }
+  
+  /* Estilos para el componente InformeReport */
+  .informe-report {
+    flex-grow: 1; /* Hace que InformeReport ocupe todo el espacio restante */
+    background-color: #ffffff; /* Color de fondo opcional */
+    padding: 10px; /* Padding interno del InformeReport opcional */
+  }
+  

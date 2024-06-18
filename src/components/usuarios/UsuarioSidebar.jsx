@@ -1,9 +1,10 @@
+// UsuariosSidebar.jsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './UsuariosSidebar.css'; // Archivo de estilos CSS
+import './UsuariosSidebar.css';
 
 const UsuariosSidebar = () => {
-  const navigate = useNavigate(); // Hook para la navegación
+  const navigate = useNavigate();
 
   return (
     <div className="sidebar">
