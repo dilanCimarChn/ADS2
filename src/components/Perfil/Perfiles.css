@@ -1,0 +1,42 @@
+/* src/components/Perfil/PerfilContent.css */
+
+.perfil-content {
+    padding: 20px;
+    flex-grow: 1;
+  }
+  
+  .personal-data-container,
+  .car-data-container {
+    background-color: rgba(0, 0, 0, 0.1); /* Fondo oscuro con opacidad */
+    border-radius: 10px; /* Esquinas redondeadas */
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  .personal-data-container {
+    align-items: center;
+  }
+  
+  .car-data-container {
+    align-items: flex-start;
+  }
+  
+  .user-image,
+  .car-image {
+    width: 230px;
+    height: 230px;
+    border-radius: 5%;
+    margin-right: 120px;
+    
+  }
+  
+  .user-details {
+    flex-grow: 1;
+  }
+  
+  .car-details {
+    flex-grow: 1;
+  }
+  
+  
